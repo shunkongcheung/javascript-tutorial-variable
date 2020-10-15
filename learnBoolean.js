@@ -35,3 +35,14 @@ const isVarEmpty = !someVar
 console.log(`isStrEmpty: ${isVarEmpty}`)
 
 
+// conditional statement
+let isHungry = true // try setting it to false
+
+if( isHungry )
+	console.log('I want some food!')
+else 
+	console.log('I want some sleep zZZ')
+
+
+if (firstNumber < secondNumber) // try using other conditional operator!
+	console.log('Hey! My condition is fulfilled!')
